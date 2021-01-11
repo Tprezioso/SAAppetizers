@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5516D9D925ACB87800C19690 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516D9D825ACB87800C19690 /* NetworkManager.swift */; };
+		5516D9DC25ACB9FA00C19690 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516D9DB25ACB9FA00C19690 /* APError.swift */; };
 		559CEDCF25AB57D3005F111E /* AppetizerListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559CEDCE25AB57D3005F111E /* AppetizerListViewCell.swift */; };
 		55CDD0D425A93D9F00E754E9 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDD0D325A93D9F00E754E9 /* Appetizer.swift */; };
 		55EBC77D25A6A27F0069D9BE /* SAAppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBC77C25A6A27F0069D9BE /* SAAppetizersApp.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5516D9D825ACB87800C19690 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5516D9DB25ACB9FA00C19690 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		559CEDCE25AB57D3005F111E /* AppetizerListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewCell.swift; sourceTree = "<group>"; };
 		55CDD0D325A93D9F00E754E9 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		55EBC77925A6A27F0069D9BE /* SAAppetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAAppetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +69,8 @@
 				55EBC77C25A6A27F0069D9BE /* SAAppetizersApp.swift */,
 				55EBC77E25A6A27F0069D9BE /* AppetizerTabView.swift */,
 				55EBC78D25A6A3540069D9BE /* AppetizerListView.swift */,
+				5516D9D825ACB87800C19690 /* NetworkManager.swift */,
+				5516D9DB25ACB9FA00C19690 /* APError.swift */,
 				559CEDCE25AB57D3005F111E /* AppetizerListViewCell.swift */,
 				55EBC79025A6A3670069D9BE /* AccountView.swift */,
 				55EBC79325A6A3720069D9BE /* OrderView.swift */,
@@ -154,9 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CDD0D425A93D9F00E754E9 /* Appetizer.swift in Sources */,
+				5516D9DC25ACB9FA00C19690 /* APError.swift in Sources */,
 				55EBC79125A6A3670069D9BE /* AccountView.swift in Sources */,
 				559CEDCF25AB57D3005F111E /* AppetizerListViewCell.swift in Sources */,
 				55EBC77F25A6A27F0069D9BE /* AppetizerTabView.swift in Sources */,
+				5516D9D925ACB87800C19690 /* NetworkManager.swift in Sources */,
 				55EBC77D25A6A27F0069D9BE /* SAAppetizersApp.swift in Sources */,
 				55EBC78E25A6A3540069D9BE /* AppetizerListView.swift in Sources */,
 				55EBC79425A6A3720069D9BE /* OrderView.swift in Sources */,
