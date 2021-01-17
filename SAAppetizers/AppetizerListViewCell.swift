@@ -28,6 +28,7 @@ struct AppetizerListViewCell: View {
         }
     }
 }
+
 struct AppetizerListViewCell_Previews: PreviewProvider {
     static var previews: some View {
         AppetizerListViewCell(appetizer: MockData.sampleAppetizer)
