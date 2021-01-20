@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5516D9D925ACB87800C19690 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516D9D825ACB87800C19690 /* NetworkManager.swift */; };
 		5516D9DC25ACB9FA00C19690 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516D9DB25ACB9FA00C19690 /* APError.swift */; };
+		5539A33525B8E23A00628223 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539A33425B8E23A00628223 /* RemoteImage.swift */; };
 		5547254925B49ADC00DC8D37 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5547254825B49ADC00DC8D37 /* Alert.swift */; };
 		556BE72E25B6005400D4628E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556BE72D25B6005400D4628E /* Color+Ext.swift */; };
 		556DA4FF25B1098000DBB590 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556DA4FE25B1098000DBB590 /* AppetizerListViewModel.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		5516D9D825ACB87800C19690 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5516D9DB25ACB9FA00C19690 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		5539A33425B8E23A00628223 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		5547254825B49ADC00DC8D37 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		556BE72D25B6005400D4628E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		556DA4FE25B1098000DBB590 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				5547254825B49ADC00DC8D37 /* Alert.swift */,
 				556DA4FE25B1098000DBB590 /* AppetizerListViewModel.swift */,
 				5516D9D825ACB87800C19690 /* NetworkManager.swift */,
+				5539A33425B8E23A00628223 /* RemoteImage.swift */,
 				556BE72D25B6005400D4628E /* Color+Ext.swift */,
 				5516D9DB25ACB9FA00C19690 /* APError.swift */,
 				559CEDCE25AB57D3005F111E /* AppetizerListViewCell.swift */,
@@ -174,6 +177,7 @@
 				556DA4FF25B1098000DBB590 /* AppetizerListViewModel.swift in Sources */,
 				559CEDCF25AB57D3005F111E /* AppetizerListViewCell.swift in Sources */,
 				556BE72E25B6005400D4628E /* Color+Ext.swift in Sources */,
+				5539A33525B8E23A00628223 /* RemoteImage.swift in Sources */,
 				55EBC77F25A6A27F0069D9BE /* AppetizerTabView.swift in Sources */,
 				5516D9D925ACB87800C19690 /* NetworkManager.swift in Sources */,
 				55EBC77D25A6A27F0069D9BE /* SAAppetizersApp.swift in Sources */,
