@@ -55,6 +55,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		557D7D7225BA2A7D00DA7BF1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				55EBC77E25A6A27F0069D9BE /* AppetizerTabView.swift */,
+				557D7D7325BA2AA500DA7BF1 /* AppetizerListView */,
+				557D7D7425BA2AB400DA7BF1 /* AccountView */,
+				557D7D7525BA2AC400DA7BF1 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		557D7D7325BA2AA500DA7BF1 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				556DA4FE25B1098000DBB590 /* AppetizerListViewModel.swift */,
+				55EBC78D25A6A3540069D9BE /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		557D7D7425BA2AB400DA7BF1 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				55EBC79025A6A3670069D9BE /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		557D7D7525BA2AC400DA7BF1 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				55EBC79325A6A3720069D9BE /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		557D7D7625BA2B5800DA7BF1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				557D7D7925BA2BD200DA7BF1 /* Alert */,
+				557D7D7825BA2B9C00DA7BF1 /* Extensions */,
+				557D7D7725BA2B8900DA7BF1 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		557D7D7725BA2B8900DA7BF1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5516D9D825ACB87800C19690 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		557D7D7825BA2B9C00DA7BF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				556BE72D25B6005400D4628E /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		557D7D7925BA2BD200DA7BF1 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				5547254825B49ADC00DC8D37 /* Alert.swift */,
+				5516D9DB25ACB9FA00C19690 /* APError.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		557D7D7A25BA2C1200DA7BF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55CDD0D325A93D9F00E754E9 /* Appetizer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		557D7D7B25BA2C5300DA7BF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				557D7D7C25BA2C9900DA7BF1 /* Cells */,
+				557D7D7D25BA2CB100DA7BF1 /* Image */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		557D7D7C25BA2C9900DA7BF1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				559CEDCE25AB57D3005F111E /* AppetizerListViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		557D7D7D25BA2CB100DA7BF1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				5539A33425B8E23A00628223 /* RemoteImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		55EBC77025A6A27F0069D9BE = {
 			isa = PBXGroup;
 			children = (
@@ -74,19 +178,11 @@
 		55EBC77B25A6A27F0069D9BE /* SAAppetizers */ = {
 			isa = PBXGroup;
 			children = (
+				557D7D7A25BA2C1200DA7BF1 /* Models */,
+				557D7D7625BA2B5800DA7BF1 /* Utilities */,
+				557D7D7B25BA2C5300DA7BF1 /* Views */,
+				557D7D7225BA2A7D00DA7BF1 /* Screens */,
 				55EBC77C25A6A27F0069D9BE /* SAAppetizersApp.swift */,
-				55EBC77E25A6A27F0069D9BE /* AppetizerTabView.swift */,
-				55EBC78D25A6A3540069D9BE /* AppetizerListView.swift */,
-				5547254825B49ADC00DC8D37 /* Alert.swift */,
-				556DA4FE25B1098000DBB590 /* AppetizerListViewModel.swift */,
-				5516D9D825ACB87800C19690 /* NetworkManager.swift */,
-				5539A33425B8E23A00628223 /* RemoteImage.swift */,
-				556BE72D25B6005400D4628E /* Color+Ext.swift */,
-				5516D9DB25ACB9FA00C19690 /* APError.swift */,
-				559CEDCE25AB57D3005F111E /* AppetizerListViewCell.swift */,
-				55EBC79025A6A3670069D9BE /* AccountView.swift */,
-				55EBC79325A6A3720069D9BE /* OrderView.swift */,
-				55CDD0D325A93D9F00E754E9 /* Appetizer.swift */,
 				55EBC78025A6A2800069D9BE /* Assets.xcassets */,
 				55EBC78525A6A2800069D9BE /* Info.plist */,
 				55EBC78225A6A2800069D9BE /* Preview Content */,
