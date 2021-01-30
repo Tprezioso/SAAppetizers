@@ -30,9 +30,6 @@ struct AccountView: View {
                     }
                 }
                 
-                DispatchQueue.main.async {
-                    <#code#>
-                }
                 Section(header: Text("Requests")) {
                     Toggle("Extra Napkins", isOn: $viewModel.user.extraNapkins)
                     Toggle("Frequent refills", isOn: $viewModel.user.frequentRefills)
