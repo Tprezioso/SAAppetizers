@@ -31,5 +31,35 @@ struct MockData {
                                      calories: 99,
                                      protein: 99,
                                      carbs: 99)
+    
     static let appetizers = [sampleAppetizer, sampleAppetizer, sampleAppetizer, sampleAppetizer]
+
+    static let orderItemOne = Appetizer(id: 0001,
+                                     name: "Test App One",
+                                     description: "This is the description for the app",
+                                     price: 2.99,
+                                     imageURL: "",
+                                     calories: 99,
+                                     protein: 99,
+                                     carbs: 99)
+    
+    static let orderItemTwo = Appetizer(id: 0002,
+                                     name: "Test App Two",
+                                     description: "This is the description for the app",
+                                     price: 2.99,
+                                     imageURL: "",
+                                     calories: 99,
+                                     protein: 99,
+                                     carbs: 99)
+    
+    static let orderItemThree = Appetizer(id: 0003,
+                                     name: "Test App Three",
+                                     description: "This is the description for the app",
+                                     price: 2.99,
+                                     imageURL: "",
+                                     calories: 99,
+                                     protein: 99,
+                                     carbs: 99)
+
+    static let orderItems = [orderItemOne, orderItemTwo, orderItemThree]
 }
