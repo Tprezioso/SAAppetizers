@@ -27,7 +27,6 @@ struct EmptyState: View {
                     .padding()
             }
         }
-        .offset(y: -50)
     }
 }
 
