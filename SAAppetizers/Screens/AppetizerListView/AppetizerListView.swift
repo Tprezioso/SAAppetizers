@@ -35,6 +35,7 @@ struct AppetizerListView: View {
             
             if viewModel.isLoading {
                 ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
                     .scaleEffect(2, anchor: .center)
             }
         }.alert(item: $viewModel.alertItem) { alertItem in
